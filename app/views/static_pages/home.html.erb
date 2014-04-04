@@ -1,7 +1,11 @@
+<% provide(:title, 'Home') %>
+<div class="center hero-unit">
+  <h1>Welcome to the Sample App</h1>
 
+  <h2>
+   Visit
 
-    <h1>Sample App</h1>
-    <p>
-      Allitso.com home
-    </p>
-  
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
